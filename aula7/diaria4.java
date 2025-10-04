@@ -1,12 +1,10 @@
 package aula7;
 
-public class diaria3 {
+public class diaria4 {
     public static void main(String[] args) {
-        int contador = 0;
 
-        while (contador <= 1000) {
+        for (int contador = 0; contador <= 1000; contador++) {
             System.out.println(contador);
-            contador = contador + 1;
         }
     }
 }

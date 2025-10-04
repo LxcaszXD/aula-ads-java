@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tabuaday",
+            "request": "launch",
+            "mainClass": "aula8.tabuaday",
+            "projectName": "aulas-ads-sb_13541df7"
+        },
+        {
+            "type": "java",
+            "name": "tabuadax",
+            "request": "launch",
+            "mainClass": "aula8.tabuadax",
+            "projectName": "aulas-ads-sb_13541df7"
+        },
+        {
+            "type": "java",
+            "name": "tst",
+            "request": "launch",
+            "mainClass": "aula8.tst",
+            "projectName": "aulas-ads-sb_13541df7"
+        },
+        {
+            "type": "java",
+            "name": "tabuada",
+            "request": "launch",
+            "mainClass": "aula8.tabuada",
+            "projectName": "aulas-ads-sb_13541df7"
+        },
+        {
+            "type": "java",
+            "name": "tabuadaDoDois",
+            "request": "launch",
+            "mainClass": "aula8.tabuadaDoDois",
+            "projectName": "aulas-ads-sb_13541df7"
+        },
+        {
+            "type": "java",
+            "name": "contador",
+            "request": "launch",
+            "mainClass": "aula8.contador",
+            "projectName": "aulas-ads-sb_13541df7"
+        },
+        {
+            "type": "java",
+            "name": "diaria4",
+            "request": "launch",
+            "mainClass": "aula7.diaria4",
+            "projectName": "aulas-ads-sb_13541df7"
+        },
+        {
+            "type": "java",
             "name": "diaria3",
             "request": "launch",
             "mainClass": "aula7.diaria3",
