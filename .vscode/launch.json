@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "cadastro",
+            "request": "launch",
+            "mainClass": "cadastro",
+            "projectName": "aula-ads-sb_2480606b"
+        },
+        {
+            "type": "java",
+            "name": "quantidadeDeValores",
+            "request": "launch",
+            "mainClass": "ativ.quantidadeDeValores",
+            "projectName": "aula-ads-sb_2480606b"
+        },
+        {
+            "type": "java",
+            "name": "calculoDeValor",
+            "request": "launch",
+            "mainClass": "ativ.calculoDeValor",
+            "projectName": "aula-ads-sb_2480606b"
+        },
+        {
+            "type": "java",
+            "name": "calc",
+            "request": "launch",
+            "mainClass": "calc",
+            "projectName": "aula-ads-sb_2480606b"
+        },
+        {
+            "type": "java",
+            "name": "condicaoDeNumeros",
+            "request": "launch",
+            "mainClass": "ativ.condicaoDeNumeros",
+            "projectName": "aula-ads-sb_2480606b"
+        },
+        {
+            "type": "java",
+            "name": "numerosPares",
+            "request": "launch",
+            "mainClass": "ativ.numerosPares",
+            "projectName": "aula-ads-sb_2480606b"
+        },
+        {
+            "type": "java",
             "name": "tabuaday",
             "request": "launch",
             "mainClass": "aula8.tabuaday",
