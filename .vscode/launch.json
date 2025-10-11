@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "churras2",
+            "request": "launch",
+            "mainClass": "aula9.churras2",
+            "projectName": "aulas-ads-sb_13541df7"
+        },
+        {
+            "type": "java",
+            "name": "churras",
+            "request": "launch",
+            "mainClass": "aula9.churras",
+            "projectName": "aulas-ads-sb_13541df7"
+        },
+        {
+            "type": "java",
             "name": "cadastro",
             "request": "launch",
             "mainClass": "cadastro",
