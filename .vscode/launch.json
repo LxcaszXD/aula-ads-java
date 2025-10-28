@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "impressaoNumeros",
+            "request": "launch",
+            "mainClass": "impressaoNumeros",
+            "projectName": "aula-ads-java_9ac2d39b"
+        },
+        {
+            "type": "java",
+            "name": "selecaoResturante",
+            "request": "launch",
+            "mainClass": "selecaoResturante",
+            "projectName": "aula-ads-java_9ac2d39b"
+        },
+        {
+            "type": "java",
+            "name": "descontLoja",
+            "request": "launch",
+            "mainClass": "descontLoja",
+            "projectName": "aula-ads-java_9ac2d39b"
+        },
+        {
+            "type": "java",
+            "name": "aprovEmprestimo",
+            "request": "launch",
+            "mainClass": "aprovEmprestimo",
+            "projectName": "aula-ads-java_9ac2d39b"
+        },
+        {
+            "type": "java",
+            "name": "calcConsumo",
+            "request": "launch",
+            "mainClass": "calcConsumo",
+            "projectName": "aula-ads-java_9ac2d39b"
+        },
+        {
+            "type": "java",
             "name": "churras2",
             "request": "launch",
             "mainClass": "aula9.churras2",
