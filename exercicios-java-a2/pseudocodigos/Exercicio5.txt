@@ -1,0 +1,8 @@
+Início
+    Para i de 1 até 100 passo 1 faça
+        Se (i > 52) então
+            i ← i + 1
+        FimSe
+        Escreva(i)
+    FimPara
+Fim

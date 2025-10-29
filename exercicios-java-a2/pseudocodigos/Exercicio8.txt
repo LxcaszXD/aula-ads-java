@@ -1,0 +1,30 @@
+Início
+    Escreva("Digite o seu salário: ")
+    Leia(salario)
+
+    Escreva("Digite o número de pendências: ")
+    Leia(pendencias)
+
+    Se NÃO (salario > 2500.0 E pendencias <= 2) então
+        Escreva("Empréstimo não aprovado!")
+    Senão
+        Escreva("Empréstimo aprovado!")
+        Escreva("Digite o valor do empréstimo: R$ ")
+        Leia(valor)
+
+        Escreva("Digite o número de parcelas: ")
+        Leia(parcelas)
+
+        Se (parcelas <= 0) então
+            Escreva("Número de parcelas inválido.")
+        Senão
+            juros ← valor * 0.9 * parcelas / 100
+            total ← valor + juros
+            parcela ← total / parcelas
+
+            Escreva("Valor de cada parcela: R$ ", parcela)
+            Escreva("Valor total do financiamento: R$ ", total)
+            Escreva("Juros totais: R$ ", juros)
+        FimSe
+    FimSe
+Fim

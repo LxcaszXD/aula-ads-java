@@ -1,0 +1,9 @@
+Início
+    Escreva("Digite o valor do produto: R$ ")
+    Leia(valor)
+
+    desconto ← valor * 0.10
+    finalValor ← valor - desconto
+
+    Escreva("Valor com desconto: R$ ", finalValor)
+Fim

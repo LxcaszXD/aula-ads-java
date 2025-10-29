@@ -1,0 +1,13 @@
+Início
+    Escreva("Digite o seu salário: ")
+    Leia(salario)
+
+    Escreva("Digite o número de pendências: ")
+    Leia(pendencias)
+
+    Se (salario > 2500.00) E (pendencias <= 2) então
+        Escreva("Empréstimo aprovado!")
+    Senão
+        Escreva("Empréstimo não aprovado!")
+    FimSe
+Fim

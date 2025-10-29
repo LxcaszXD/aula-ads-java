@@ -1,0 +1,50 @@
+Início
+    Escreva("Peso (kg): ")
+    Leia(peso)
+
+    Escreva("Altura (m): ")
+    Leia(altura)
+
+    Escreva("Sexo (M/F): ")
+    Leia(sexo)
+    sexo ← Maiúsculo(sexo)
+
+    Se (altura <= 0) então
+        Escreva("Altura inválida.")
+    Senão
+        imc ← peso / (altura * altura)
+        Escreva("IMC: ", imc)
+
+        cond ← "Indefinido"
+
+        Se (sexo = 'F') então
+            Se (imc < 19.1) então
+                cond ← "Abaixo do peso"
+            SenãoSe (imc < 25.8) então
+                cond ← "No peso normal"
+            SenãoSe (imc < 27.3) então
+                cond ← "Marginalmente acima do peso"
+            SenãoSe (imc < 32.3) então
+                cond ← "Acima do peso ideal"
+            Senão
+                cond ← "Obeso"
+            FimSe
+        SenãoSe (sexo = 'M') então
+            Se (imc < 20.7) então
+                cond ← "Abaixo do peso"
+            SenãoSe (imc < 26.4) então
+                cond ← "No peso normal"
+            SenãoSe (imc < 27.8) então
+                cond ← "Marginalmente acima do peso"
+            SenãoSe (imc < 31.1) então
+                cond ← "Acima do peso ideal"
+            Senão
+                cond ← "Obeso"
+            FimSe
+        Senão
+            cond ← "Sexo inválido"
+        FimSe
+
+        Escreva(cond)
+    FimSe
+Fim

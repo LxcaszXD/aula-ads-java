@@ -1,0 +1,23 @@
+Início
+    Escreva("Menu de Lanches:")
+    Escreva("[1] - Hambúrguer (R$ 10)")
+    Escreva("[2] - Cachorro-quente (R$ 7)")
+    Escreva("[3] - Batata Frita (R$ 5)")
+    
+    Escreva("Escolha seu lanche: ")
+    Leia(escolha)
+
+    Escolha (escolha)
+        Caso 1:
+            Escreva("Você escolheu: Hambúrguer")
+            Escreva("Valor a pagar: R$10.00")
+        Caso 2:
+            Escreva("Você escolheu: Cachorro-quente")
+            Escreva("Valor a pagar: R$7.00")
+        Caso 3:
+            Escreva("Você escolheu: Batata Frita")
+            Escreva("Valor a pagar: R$5.00")
+        OutroCaso:
+            Escreva("Opção inválida. Tente novamente!")
+    FimEscolha
+Fim

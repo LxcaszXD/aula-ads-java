@@ -1,0 +1,14 @@
+Início
+    Escreva("Digite um número (inteiro e positivo): ")
+    Leia(n)
+
+    Se (n <= 0) então
+        Escreva("Valor inválido. O número deve ser inteiro e positivo!")
+    Senão
+        s ← 0
+        Para i de 1 até n passo 1 faça
+            s ← s + (1 / i)
+        FimPara
+        Escreva("S = ", s)
+    FimSe
+Fim

@@ -1,0 +1,14 @@
+Início
+    Escreva("Digite a distância percorrida (em km): ")
+    Leia(km)
+
+    Escreva("Digite a quantidade de combustível consumido (em litros): ")
+    Leia(litros)
+
+    Se (litros <= 0) então
+        Escreva("Erro: litros não pode ser zero ou negativo. Tente novamente!")
+    Senão
+        consumo ← km / litros
+        Escreva("Consumo médio: ", consumo, " km/l")
+    FimSe
+Fim

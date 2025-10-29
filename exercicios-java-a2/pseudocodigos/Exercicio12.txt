@@ -1,0 +1,51 @@
+Início
+    count ← 0
+    somaIdade ← 0
+    somaSalariosHomens ← 0
+    countHomens ← 0
+    salarioMulheresAbaixo ← 0
+
+    Escreva("Digite idade (negativa para encerrar), sexo (M/F) e salário:")
+
+    Enquanto (verdadeiro) faça
+        Escreva("Idade (negativa para encerrar): ")
+        Leia(idade)
+
+        Se (idade < 0) então
+            Pare
+        FimSe
+
+        Escreva("Sexo (M/F): ")
+        Leia(sexo)
+        sexo ← Maiúsculo(primeiro caractere de sexo)
+
+        Escreva("Salario (R$): ")
+        Leia(salario)
+
+        count ← count + 1
+        somaIdade ← somaIdade + idade
+
+        Se (sexo = 'M') então
+            somaSalariosHomens ← somaSalariosHomens + salario
+            countHomens ← countHomens + 1
+        SenãoSe (sexo = 'F') então
+            Se (salario < 600) então
+                salarioMulheresAbaixo ← salarioMulheresAbaixo + 1
+            FimSe
+        FimSe
+    FimEnquanto
+
+    Se (count > 0) então
+        Escreva("Média de idade do grupo: ", somaIdade / count)
+    Senão
+        Escreva("Nenhum habitante informado. Tente novamente!")
+    FimSe
+
+    Se (countHomens > 0) então
+        Escreva("Média de salários dos homens: R$ ", somaSalariosHomens / countHomens)
+    Senão
+        Escreva("Não há homens cadastrados.")
+    FimSe
+
+    Escreva("Quantidade de mulheres com salário abaixo de R$600,00: ", salarioMulheresAbaixo)
+Fim

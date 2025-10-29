@@ -1,0 +1,33 @@
+Início
+    totalAlunos ← 20
+    aprovados ← 0
+    exame ← 0
+    reprovados ← 0
+    somaNotas ← 0
+
+    Para i de 1 até totalAlunos passo 1 faça
+        Escreva("Digite a nota do aluno ", i, " - nota (0-10): ")
+        Leia(nota)
+
+        Escreva("Digite a quantidade de faltas do aluno ", i, " - faltas (0-60): ")
+        Leia(faltas)
+
+        somaNotas ← somaNotas + nota
+        frequenciaOk ← (faltas <= 15)
+
+        Se (nota >= 6.0 E frequenciaOk) então
+            aprovados ← aprovados + 1
+        SenãoSe (nota >= 3.0 E nota < 6.0 E frequenciaOk) então
+            exame ← exame + 1
+        Senão
+            reprovados ← reprovados + 1
+        FimSe
+    FimPara
+
+    media ← somaNotas / totalAlunos
+
+    Escreva("Quantidade aprovados: ", aprovados)
+    Escreva("Quantidade exame: ", exame)
+    Escreva("Quantidade reprovados: ", reprovados)
+    Escreva("Média da turma: ", media)
+Fim

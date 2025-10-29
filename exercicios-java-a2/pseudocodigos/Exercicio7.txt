@@ -1,0 +1,34 @@
+Início
+    positivos ← 0
+    negativos ← 0
+    menor ← +∞
+
+    Escreva("Digite um número (digite 0 para encerrar):")
+
+    Enquanto (verdadeiro) faça
+        Escreva("Número: ")
+        Leia(valor)
+
+        Se (valor = 0) então
+            Pare
+        FimSe
+
+        Se (valor > 0) então
+            positivos ← positivos + 1
+        Senão
+            negativos ← negativos + 1
+        FimSe
+
+        Se (valor < menor) então
+            menor ← valor
+        FimSe
+    FimEnquanto
+
+    Se (menor = +∞) então
+        Escreva("Nenhum número informado. Tente novamente!")
+    Senão
+        Escreva("Quantidade positivos: ", positivos)
+        Escreva("Quantidade negativos: ", negativos)
+        Escreva("Menor valor: ", menor)
+    FimSe
+Fim

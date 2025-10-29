@@ -1,0 +1,44 @@
+Início
+    alturaH ← 0
+    alturaF ← 0
+    countH ← 0
+    countF ← 0
+
+    Escreva("Digite o sexo (M/F) e a altura (em m). Digite 'X' para encerrar.")
+
+    Enquanto (verdadeiro) faça
+        Escreva("Sexo M/F (X para sair): ")
+        Leia(s)
+
+        Se (s = "X" OU s = "x") então
+            Pare
+        FimSe
+
+        sexo ← Maiúsculo(primeiro caractere de s)
+
+        Escreva("Altura (m): ")
+        Leia(altura)
+
+        Se (sexo = 'M') então
+            alturaH ← alturaH + altura
+            countH ← countH + 1
+        SenãoSe (sexo = 'F') então
+            alturaF ← alturaF + altura
+            countF ← countF + 1
+        Senão
+            Escreva("Sexo inválido, registro ignorado!")
+        FimSe
+    FimEnquanto
+
+    Se (countF > 0) então
+        Escreva("Altura média das mulheres: ", alturaF / countF, " m")
+    Senão
+        Escreva("Não há mulheres registradas.")
+    FimSe
+
+    Se (countH > 0) então
+        Escreva("Altura média dos homens: ", alturaH / countH, " m")
+    Senão
+        Escreva("Não há homens registrados.")
+    FimSe
+Fim
